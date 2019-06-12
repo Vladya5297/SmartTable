@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(35deg, aqua, darkblue);
+
+}
+
+header p {
+    margin: auto;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.display_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.table h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #464646;
+}
+
+.label {
+    position: relative;
+    text-align:center;
+    width:100%;
+    bottom: 47%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.timer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup_form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 180px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+}
+
+.popup_form p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup_form input {
+    margin: 0 0 7px 0;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.popup_form button {
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+}
+
+.popup_form button:hover {
+    background: #C4C4C4;
+}
+
+.popup_form button:active {
+    background: #808080;
+}
+
+.search_form {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_form button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+}
+
+.search_form button:hover {
+    background: #C4C4C4;
+}
+
+.search_form button:active {
+    background: #808080;
+}
+
+.search_form input {
+    margin: 0 10px 0 0;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.graphpage_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.graph_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
